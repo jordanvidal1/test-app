@@ -56,14 +56,18 @@ function App() {
 
   return (
     <div className="App">
-      <div className="section section-1" />
+      <div className="section section-1">
+        Section 1
+      </div>
       <div className="animation-section">
         <div id="zoom" className="section section-2">
           <div className="planet-container">
             <img className="planet" src={Planet} alt="planet" />
           </div>
         </div>
-        <div className="section section-3" />
+        <div className="section section-3">
+          Section 3
+        </div>
       </div>
     </div>
   );
